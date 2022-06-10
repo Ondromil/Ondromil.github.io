@@ -6,7 +6,8 @@ h1 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
     font-family: Arial;
     color: white;
 }

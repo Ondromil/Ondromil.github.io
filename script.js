@@ -14,7 +14,7 @@ function display()
         document.getElementById("demo").innerHTML += "-"
         eightSymbol = 0;
     }
-    if (symbols > 78)
+    if (symbols > 86)
     {
         document.getElementById("demo").innerHTML += "<br>";
         symbols = 0;
@@ -26,11 +26,4 @@ function display()
     }
 }
 
-interval = setInterval(display, 50);
-
-
-
-
-
-
-
+interval = setInterval(display, 30);
