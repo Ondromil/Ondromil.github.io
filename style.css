@@ -1,33 +1,31 @@
-h1 {
-    text-align: center;
+body {
+    background-color: black;
     font-family: monospace;
-    color: white;
-    font-size: 30px;
 }
 
 p {
     text-align: left;
     padding-left: 20px;
-    font-family: Arial;
-    color: white;
-}
-
-a {
-    text-align: center;
-    color: aqua;
-}
-
-body {
-    background-color: black;
-}
-
-.matrix {
     display: block;
     color: lime;
     font-size: 27px;
     font-family: monospace;
 }
 
-.text-container {
+a {
     text-align: center;
+    color: white;
+    display: block;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.navbar {
+    margin: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }

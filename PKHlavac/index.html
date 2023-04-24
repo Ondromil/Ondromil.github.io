@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <title>O nás</title>
+</head>
+<body>
+   <header class="header">
+      <nav class="navbar">
+         <img src="Images/clogo.png" alt="logo" class="logo">
+         <div class="phone-number">
+            <p>+420 699 699 699</p>
+         </div>
+         <div class="phone-icon">
+            <img src="Icons/telephone-icon.png" height="45", alt="phone-icon", class="phone-icon">
+         </div>
+         <div class="nav-list-container">
+            <button class="dropdown-button" onclick="this.classList.toggle('active');"></button>
+               <ul class="nav-list">
+                  <li class="nav-item-active">
+                     <a href="index.html">O nás</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="galerie.html">Galerie</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="kontakt.html">Kontakt</a>
+                  </li>
+               </ul>
+         </div>
+      </nav>
+   </header>
+
+   <div class="slider">
+      <div class="slider-image" style="background-image: url(Images/sliderfoto.jpg);"></div>
+      <div class="slider-image" style="background-image: url(Images/sliderfoto2.jpg);"></div>
+      <div class="slider-image" style="background-image: url(Images/sliderfoto3.jpg);"></div>
+      <div class="slider-buttons">
+         <ul class="slider-button-list">
+            <li class="slider-item"><button class="slider-button" onclick="changeValue(0)"></button></li>
+            <li class="slider-item"><button class="slider-button" onclick="changeValue(1)"></button></li>
+            <li class="slider-item"><button class="slider-button" onclick="changeValue(2)"></button></li>
+         </ul> 
+      </div>
+      <script src="slideshow.js"></script>
+      <div class="head-text-container">
+          <h1 class="head-text">Projekční Kancelář <br>Hlaváč</h1>
+      </div>
+   </div>
+
+   <div class="border-line"></div>
+
+   <div class="article-container">
+      <div class="article1">
+         <article>
+            <header>
+                <h1>O nás</h1>
+            </header>
+            <section>
+                <p>Jsme firma zabyvajici se projekci a tak dale no jako ze <br>
+                  Protože mi tento web přijde poněkud suchý tak přidávám Recept na výbornou pečenou kočku<br>
+                  Vezměte kočku a co nejvíce morbidním způsobem ji zabijte.  Poté kočku nějak oholte.<br>
+                  Šoupněte ji na prkénko. Zlehka kočku potírejte marinádou. Přidejte grilovací koření<br>
+               </p>           
+            </section>
+         </article>
+      </div>
+      <img src="Images/P3132354.jpg" class="about-image" alt="about-image">
+   </div>
+
+   <div class="services">
+      <div class="services-menu">
+         <button class="service-button" onclick="display(0)">
+            <img src="Icons/icons8-project-64.png">
+            <h1>Projekční činnost</h1>
+         </button>
+         <button class="service-button" onclick="display(1)">
+            <img src="Icons/icons8-worker-64.png">
+            <h1>Inženýrská činnost</h1>
+         </button>
+         <button class="service-button" onclick="display(2)">
+            <img src="Icons/icons8-consultation-50.png">
+            <h1>Poradenská činnost</h1>
+         </button>
+      </div>
+
+      <div class="services-content">
+         <div class="content">
+            <ul>
+               <li>Zpracování architektonických studií a investičních záměrů</li>
+               <Li>Vizualizace navržených řešení</Li>
+               <li>Zpracování projektové dokumentace</li>
+               <li>Zaměření stávajícího stavu</li>
+               <li>Zaměření skutečného provedení stavby</li>
+            </ul>
+         </div>
+         <div class="content">
+            <ul>
+               <li>Obstarání stanovisek dotčených subjektů</li>
+               <li>Zajištění územního rozhodnutí a stavebního povolení</li>
+               <li>Zajištění odborného dozoru při realizaci</li>
+               <li>Zajištění kolaudačního rozhodnutí</li>
+            </ul>
+         </div>
+         <div class="content">
+            <ul>
+               <li>Konzultace výběru stavebních materiálů</li>
+               <li>Zajištění dodávky materiálu na místo stavby</li>
+               <li>Případné zajištění realizaci</li>
+               </ul>
+         </div>
+      </div>
+      <script src="serviceMenu.js"></script>
+   </div>
+
+   <div class="map">
+      <h1>Naše zhotovené projekty</h1>
+      <p>
+         <iframe src="https://www.google.com/maps/d/embed?mid=1lb95ASF0VjxjcBUjS-4-FedTUx1N3-k&ehbc=2E312F" width="900" height="480"></iframe>
+      </p>
+
+   </div>
+
+   <div class="contact-container">
+      <article>
+         <header>
+              <svg height="10" width="150">
+               <line x1="0" y1="5" x2="150" y2="5" style="stroke: black; stroke-width: 2;" />
+              </svg>
+              <h2>Máte zájem?</h2>
+         </header>
+         <section class="contact-section">
+              <p>Neváhejte se nám ozvat</p>
+              <div class="button-p">
+                 <a href="kontakt.html" class="button">Kontakt</a>
+              </div>
+         </section>
+      </article>
+   </div>
+
+   <div class="footer">
+      <footer>
+         <img src="Images/clogo.png" class="footer-logo">
+         <p class="copyright">Ondřej Hlaváč @2023</p>
+         <ul class="contacts-list">
+            <li>
+               <p>
+                  <img src="Icons/icons8-rotary-dial-telephone-32.png" width="40px" class="footer-contact-icons">
+                  +420 699 699 699
+               </p>
+            </li>
+            <li>
+               <p>
+                  <img src="Icons/icons8-composing-mail-24.png" width="40px" class="footer-contact-icons">
+                  pkhlavac@seznam.cz
+               </p>
+            </li>
+         </ul>
+      </footer>
+   </div>
+
+</body>
+</html>
