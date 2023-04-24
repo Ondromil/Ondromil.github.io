@@ -27,3 +27,7 @@ body {
     font-size: 27px;
     font-family: monospace;
 }
+
+.text-container {
+    text-align: center;
+}
