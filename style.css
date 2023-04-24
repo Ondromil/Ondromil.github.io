@@ -5,19 +5,15 @@ body {
 
 p {
     text-align: left;
-    padding-left: 20px;
-    display: block;
+    margin-left: 20px;
     color: lime;
-    font-size: 27px;
-    font-family: monospace;
+    font-size: 2em;
 }
 
 a {
     text-align: center;
     color: white;
-    display: block;
     font-size: 2em;
-    font-family: monospace;
 }
 
 .navbar {
